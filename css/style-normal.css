@@ -46,7 +46,7 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll;
+		background-size: 15em, 15em, auto, cover;
 	}
 
 /* CTA */
