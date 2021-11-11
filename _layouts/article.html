@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body class="index">
+<body class="index article">
 
-    {% include header.html %}
+  {% include header.html %}
 
-
-    <div class="page-content">
-        {{ content }}
+  <div id="wiki-flex">
+    {% include sidebar.html %}
+    <div id="wiki-content">
+      {{ content }}
     </div>
+  </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+</body>
 
 </html>

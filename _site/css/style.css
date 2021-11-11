@@ -1102,3 +1102,34 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+#wiki-flex {
+	margin-top: 56px;
+	display: flex;
+}
+#wikibar {
+	width: 300px;
+	background-color: #e8eef4;
+	padding-right: 1.2em;
+	padding-left: 1.2em;
+	border-right: 1px solid #dee2e6;
+}
+
+#wikibar a {
+	color: #000;
+	border-bottom: 0px;
+}
+
+#wikibar-inner {
+	position: sticky;
+	top: 56px;
+}
+
+#wiki-content {
+	flex: 1;
+}
+
+#wikibar .subheading {
+	margin-left: 10px;
+	margin-bottom: 0px;
+}

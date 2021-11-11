@@ -59,9 +59,10 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  universal-darwin-21
 
 DEPENDENCIES
   jekyll
 
 BUNDLED WITH
-   2.2.30
+   2.2.31

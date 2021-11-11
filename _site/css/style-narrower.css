@@ -119,3 +119,13 @@
 	#footer {
 		padding: 4em 1.5em;
 	}
+
+
+	#wiki-flex {
+		flex-direction: column;
+	}
+
+	#wikibar {
+		width: 100%;
+	}
+	
