@@ -55,7 +55,7 @@ strong, b {
 }
 
 p, ul, ol, dl, table, blockquote {
-	margin: 0 0 2em 0;
+	margin: 0 0 1em 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -143,12 +143,17 @@ header.special:after {
 }
 
 header.special h2 {
-	margin-bottom: 0;
+	margin-bottom: 1;
+	text-align: center;
+}
+
+header.special  {
+	text-align: left;
 }
 
 header.special h2 + p {
 	margin-bottom: 0;
-	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 }
 
 header.special .icon {
@@ -918,16 +923,13 @@ body.index #main {
 }
 
 #footer .copyright li {
-	display: inline-block;
 	margin-left: 1em;
 	padding-left: 1em;
-	border-left: dotted 1px;
+	padding-bottom: 1em;
 }
 
-#footer .copyright li:first-child {
-	margin: 0;
-	padding: 0;
-	border: 0;
+#footer .copyright li:last-child {
+	padding-bottom: 0;
 }
 
 /* Layer */
