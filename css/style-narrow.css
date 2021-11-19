@@ -27,6 +27,21 @@ header.special {
 	padding-right: 2.5em;
 }
 
+header.special h2 {
+	margin-bottom: 1;
+	text-align: center;
+}
+
+header.special p {
+	text-align: left;
+}
+
+header.special h2 + p {
+	margin-bottom: 0;
+	padding-bottom: 1.5em;
+	padding-top: 1.25em;
+}
+
 footer.major {
 	padding-top: 1.5em;
 }
