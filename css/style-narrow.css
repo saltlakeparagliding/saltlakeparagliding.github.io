@@ -42,10 +42,6 @@ header.special h2 + p {
 	padding-top: 1.25em;
 }
 
-footer.major {
-	padding-top: 1.5em;
-}
-
 /* Wrapper */
 
 .wrapper {
