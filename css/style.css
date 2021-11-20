@@ -62,7 +62,6 @@ h1, h2, h3, h4, h5, h6 {
 	color: inherit;
 	font-weight: 300;
 	line-height: 1.75em;
-	margin-bottom: 1em;
 	text-transform: uppercase;
 }
 
@@ -143,7 +142,6 @@ header.special:after {
 }
 
 header.special h2 {
-	margin-bottom: 1;
 	text-align: center;
 }
 
@@ -154,6 +152,7 @@ header.special p {
 header.special h2 + p {
 	margin-bottom: 0;
 	padding-bottom: 1.5em;
+	padding-top: 1.25em;
 }
 
 header.special .icon {
@@ -252,7 +251,6 @@ input[type="email"] {
 }
 
 .image:before {
-	background: url("images/overlay.png");
 	content: '';
 	height: 100%;
 	left: 0;
@@ -276,8 +274,29 @@ input[type="email"] {
 }
 
 .image.featured img {
-	display: block;
 	width: 100%;
+	display: block;
+}
+
+#about_container {
+  display: flex;
+}
+
+#about_image {
+	width: 50%;
+	float: left;
+	margin: 3em 3em 3em 3em;
+}
+
+#about_text {
+	width: 50%;
+	float: right;
+	margin: 2em 2em 2em 2em;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+#about_instructor {
+	text-transform: none;
 }
 
 /* Icon */
