@@ -130,9 +130,7 @@ ul.buttons {
 
 #banner {
 	background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner_mobile.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-size: 10em, 10em, auto, cover;
 	padding: 6em 0;
 }
 
