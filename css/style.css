@@ -1142,3 +1142,8 @@ body.index #main {
 	margin-left: 10px;
 	margin-bottom: 0px;
 }
+
+#lesson-list {
+	display: list-item;
+	margin-left:  1em;
+}
